@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  base: '/Portfolio/',
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          motion: ['framer-motion'],
+        manualChunks(id) {
+          if (id.includes('framer-motion')) return 'motion';
+          if (id.includes('node_modules')) return 'vendor';
         },
       },
     },
