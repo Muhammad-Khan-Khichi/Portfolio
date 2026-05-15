@@ -1,4 +1,4 @@
-`# 🚀 Muhammad Khan — Portfolio
+# 🚀 Muhammad Khan — Portfolio
 
 A premium, high-performance portfolio website built with React, Tailwind CSS, and GPU-optimized animations. Designed to look like a high-end SaaS landing page while maintaining silky-smooth 60fps on low-performance devices.
 
