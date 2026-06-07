@@ -126,7 +126,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 0.5 }}
@@ -141,7 +141,7 @@ export default function Hero() {
             <div className="w-1 h-2 rounded-full bg-current animate-bounce-subtle" />
           </div>
         </a>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
