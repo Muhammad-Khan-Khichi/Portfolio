@@ -51,6 +51,7 @@ import movie from '../assets/movie.jpg'
 import gold from '../assets/gold.jpg'
 import titanic from '../assets/titanic.jpg'
 import search from '../assets/search.jpg'
+import Hire from '../assets/Hire.jpg'
 
 export const personalInfo = {
   name: 'Muhammad Khan',
@@ -143,10 +144,10 @@ export const projects = [
     title: 'HireAI(AI-Powered Job Search Platform)',
     description:
       'An AI recruitment platform that parses resumes to extract skills, then matches and ranks jobs using semantic search. Also offers AI-powered career tools like resume/LinkedIn optimization, mock interviews, and cover letter generation.',
-    image: 'https://unsplash.com/photos/an-abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0',
+    image: Hire,
     techStack: ['FastApi', 'React', 'LangChain', 'Postgres', 'Qdrant'],
-    liveUrl: 'https://automl-analyst-platform-mk.streamlit.app/',
-    githubUrl: '#',
+    liveUrl: 'https://ai-driven-recruitment-frontend.vercel.app/',
+    githubUrl: 'https://github.com/Muhammad-Khan-Khichi/AI-Driven-Recruitment',
   },
   {
     id: 2,
@@ -156,7 +157,7 @@ export const projects = [
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
     techStack: ['Streamlit', 'FastApi', 'Scikit Learn', 'Numpy'],
     liveUrl: 'https://automl-analyst-platform-mk.streamlit.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Muhammad-Khan-Khichi/AutoMl-Analyst-Platform',
   },
   {
     id: 3,
