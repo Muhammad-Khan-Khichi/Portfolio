@@ -27,7 +27,7 @@ export default function About() {
               {personalInfo.bio}
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
-              {['Scikit Learn','FastAPI', 'React', 'Streamlit','PostgreSQL', 'JWT Auth', 'ML'].map((tag) => (
+              {['Python','FastAPI', 'LangChain', 'RAG', 'Livekit', 'Qdrant', 'React','PostgreSQL', 'ML' , 'JWT Auth'].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 rounded-lg text-xs font-medium bg-primary-500/10 text-primary-400 border border-primary-500/20"
