@@ -55,7 +55,7 @@ import Hire from '../assets/Hire.jpg'
 
 export const personalInfo = {
   name: 'Muhammad Khan',
-  title: 'Full Stack ML Engineer',
+  title: 'Full Stack AI Engineer',
   roles: ['AI Engineer'],
   tagline: 'I build end-to-end Artificial Intelligence systems & scalable web apps',
   email: 'muhammadkhan08561@gmail.com',
